@@ -26,9 +26,11 @@ span{
 section{
     background-color: gold;
     width: 75%;
-    height: 50%;
+    min-height: 30%;
+    max-height: 50%;
     overflow-y: scroll;
     position: relative;
+    border-radius: 4px;
 }
 
 div{
@@ -38,6 +40,7 @@ div{
     width: 24.5%;
     display: flex;
     gap: 5px;
+    border-radius: 4px 4px 0 0;
 }
 .div_btn{
     background-color: pink;

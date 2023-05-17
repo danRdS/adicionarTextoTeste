@@ -26,15 +26,16 @@
         width: 90%;
     }
     div{
-        width: 77.4%;
+        width: 82.5%;
     }
     [type = text]{
         background-color: #a0a0a0;
         width: 50%;
-        font-size: 8pt;
+        font-size: 9pt;
+        padding-left: 5px;
     }
     input:nth-child(2) {
-        margin-left: 1.5rem;
+        margin-left: 3rem;
         width: 15%;
         font-size: 9pt;
     }
